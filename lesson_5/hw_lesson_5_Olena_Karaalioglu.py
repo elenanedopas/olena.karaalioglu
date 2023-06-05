@@ -28,6 +28,3 @@ print(sentence)
 
 
 
-
-
-
