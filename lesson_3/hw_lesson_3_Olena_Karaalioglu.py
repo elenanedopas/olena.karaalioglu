@@ -1,4 +1,4 @@
-eval "$(ssh-agent -s)"
+
 
 my_list = [2, 4, 2, 5, 5, 7, 8]
 d = {'salary': 100, 'bonus': 25, 'extra': 50}
@@ -8,7 +8,7 @@ print(sum(my_list))
 
 #2. Вивести суму усіх УНІКАЛЬНИХ елементів списку (a)
 my_set = set(my_list)
-print(sum(my_set))New
+print(sum(my_set))
 
 
 #3.Надрукувати суму елемента 3 зі списку (а), та зарплати зі словника (б)
@@ -19,7 +19,7 @@ print(sum(d.values()))
 
 # 5.Перевизначити зарплату в словнику, збільшивши її на суму премії та надрукувати результат
 
-d ['salary'] = (d ['salary'] + d['extra'])
+d['salary'] = (d['salary'] + d['extra'])
 print(d)
 
 
