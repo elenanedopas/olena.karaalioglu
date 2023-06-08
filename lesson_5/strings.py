@@ -2,7 +2,7 @@
 first_name = 'Jake'
 print(first_name[2])
 # first_name[2] = 'n'
-# print(first_name)
+print(first_name)
 
 first_two_letters = first_name[:2]
 print(first_two_letters)
